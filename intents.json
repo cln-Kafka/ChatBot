@@ -1,0 +1,61 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey!", "Hei", "Yooo, whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey! How can I assist you today?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "characteristics",
+         "patterns": ["how old", "what is your age", "how old are you", "age?", "what is your personality type?", "what are your characteristics?", "characteristics?"],
+         "responses": ["As an AI model, I don't have an age or personality type. I can tell when I was made, though. I was coded and trained on April 10, 2023."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Kafka.", "I'm Kafka!"],
+         "context_set": ""
+        },
+        {"tag": "chatbot",
+         "patterns": ["How would you describe yourself?"],
+         "responses": ["I am a computer program designed to simulate human conversation and provide assistance to users in a conversational manner."],
+         "context_set": ""
+        },
+        {"tag": "personality",
+         "patterns": ["what do you know about mbti?", "what is mbti?", "mbti website?", "mbti?", "what is this website?"],
+         "responses": ["MBTI is a personality assessment tool that categorizes individuals into one of 16 personality types based on their preferences for how they perceive the world and make decisions.",
+                       "It is a personality test with 16 types based on preferences for perceiving and decision-making."],
+         "context_set": ""
+        },
+        {"tag": "types",
+         "patterns": ["what are the 16 types", "16 types?", "types?"],
+         "responses": ["The 16 types are: ISTJ, ISFJ, INFJ, INTJ, ISTP, ISFP, INFP, INTP, ESTP, ESFP, ENFP, ENTP, ESTJ, ESFJ, ENFJ, ENTJ"],
+         "context_set": ""
+        },
+        {"tag": "logical",
+         "patterns": ["what mbti types that tend to be logical rather than sentimental?", "logical", "logical types"],
+         "responses": ["the following MBTI types are more likely to prioritize logic over sentimentality: ISTJ, INTJ, ISTP, INTP, ESTP, ENTP, ESTJ, ENTJ", "ISTJ, INTJ, ISTP, INTP, ESTP, ENTP, ESTJ, ENTJ"],
+         "context_set": ""
+        },
+        {"tag": "ENTP",
+         "patterns": ["who are the ENTPs?", "ENTP?", "Are the ENTPs logical or sentimental?", "ESTP?", "what about the entps?"],
+         "responses": ["Both ENTPs and ESTPs prefer the world of facts and logic to the world of emotions and values", "They prefer facts and logic but still crave a sense of understanding and harmony with others because of their tertiary Fe."],
+         "context_set": ""
+        },
+        {"tag": "INFJ",
+         "patterns": ["who are the INFJs?", "INFJ?", "what about the infjs?"],
+         "responses": ["It is a type characterized by introverted intuition, feeling, and judging, with a strong focus on empathy, ethics, and insight into others.",
+                       "That personality type is both a feeler and a thinker!"],
+         "context_set": ""
+        },
+        {"tag": "change",
+         "patterns": ["Can a personality type change?", "how it can be changed?", "I want to change my type?!!!"],
+         "responses": ["According to MBTI, it is stable and consistent throughout lifetime",
+                       "MBTI cannot be change. However, it can be influenced and shaped by a variety of factors"],
+         "context_set": ""
+        }
+   ]
+}
